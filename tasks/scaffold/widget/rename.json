@@ -1,0 +1,6 @@
+{
+  "app/modules/widgets/name/styles/styles.less": 	"app/modules/widgets/{%= name %}/styles/styles.less",
+  "app/modules/widgets/name/templates/name.hbs": 	"app/modules/widgets/{%= name %}/templates/{%= name %}.hbs",
+  "app/modules/widgets/name/views/view.js": 			"app/modules/widgets/{%= name %}/views/view.js",
+  "app/modules/widgets/name/main.js": 						"app/modules/widgets/{%= name %}/main.js"
+}

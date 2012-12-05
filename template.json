@@ -1,0 +1,17 @@
+{
+	"npmTasks": [
+		"grunt-contrib-clean",
+		"grunt-contrib-compress",
+		"grunt-contrib-concat",
+		"grunt-contrib-copy",
+		"grunt-contrib-jshint",
+		"grunt-contrib-less",
+		"grunt-contrib-mincss",
+		"grunt-contrib-yuidoc",
+		"jscoverage"
+	],
+	"repos": {
+		"client-assets": "git+ssh://git@github.com:Five9/client-assets.git#develop",
+		"client-boilerplate": "git+ssh://git@github.com:Five9/client-boilerplate.git#develop"
+	}
+}

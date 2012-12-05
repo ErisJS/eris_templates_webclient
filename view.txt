@@ -1,0 +1,19 @@
+<%= 'Usage:'.grey %> <%= 'eris'.bold.green %> <%= '[command]'.green %> <%= '[task ...]'.grey %>
+
+<%= 'Main Tasks'.bold.underline.green %>
+            <%= 'server'.green %>  <%= 'Launch a preview server which will watch for changes'.grey %>
+              <%= 'test'.green %>  <%= 'Run test suites in a headless PhantomJS'.grey %>
+           <%= 'release'.green %>  <%= 'Build a release version which is ready for deployment'.grey %>
+
+<%= 'Scaffolding Tasks'.bold.underline.green %>
+          <%= 'scaffold'.green %>  <%= 'View all scaffolding tasks'.grey %>
+         <%= 'new-model'.green %>  <%= 'Add a new model to the application'.grey %>
+        <%= 'new-widget'.green %>  <%= 'Add a new widget to the application'.grey %>
+
+<%= 'Update Tasks'.bold.underline.green %>
+      <%= 'update-grunt'.green %>  <%= 'Update the project Gruntfile with the latest version'.grey %>
+     <%= 'update-assets'.green %>  <%= 'Update the project assets with the latest version'.grey %>
+
+<%= 'Info Tasks'.bold.underline.green %>
+      <%= 'list-modules'.green %>  <%= 'Show module dependencies'.grey %>
+             <%= 'cover'.green %>  <%= 'Generate code coverage information of unit tests using jscoverage'.grey %>

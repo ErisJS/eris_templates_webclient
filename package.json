@@ -1,0 +1,14 @@
+{
+  "name": "eris_templates_webclient",
+  "version": "0.0.9",
+  "description": "Standard Five9 web-client template for eris",
+  "keywords": [
+    "eris_template"
+  ],
+  "author": {
+    "name": "eris team"
+  },
+  "publishConfig": {
+    "registry": "http://registry.eris-npm.com:5984"
+  }
+}
