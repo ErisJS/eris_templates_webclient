@@ -8,6 +8,7 @@
 		"grunt-contrib-less",
 		"grunt-contrib-mincss",
 		"grunt-contrib-yuidoc",
+		"grunt-file-creator",
 		"jscoverage"
 	],
 	"repos": {
