@@ -25,7 +25,7 @@ exports.template = function(grunt, scaffold, done) {
 
     props.name = props.name.toLowerCase();
     props.module_name = props.name[0].toUpperCase() + props.name.slice(1);
-    props.view_name = props.module_name + 'View';
+    props.view_name = toCamelCase(props.module_name) + 'View';
 
     // copy and process files
     scaffold.copyAndProcess(files, props, {});
@@ -33,5 +33,14 @@ exports.template = function(grunt, scaffold, done) {
     // complete
     done();
   });
+
+  var toCamelCase = function(original) {
+    var s = "";
+    var split = original.split(/[\s,._\-]+/);
+    _.each(split, function(element) {
+      s += element.charAt(0).toUpperCase() + element.slice(1);
+    });
+    return s;
+  };
 
 };

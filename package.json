@@ -1,6 +1,6 @@
 {
   "name": "eris_templates_webclient",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Standard Five9 web-client template for eris",
   "keywords": [
     "eris_template"

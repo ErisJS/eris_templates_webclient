@@ -15,7 +15,7 @@ function(Five9, BaseViews, Core) {
     events: {
     }
   });
-  _.extend({%= view_name %}.prototype, {%= base_view_name %}.ItemView);
+  _.extend({%= view_name %}.prototype, BaseViews.ItemView);
 
   return {%= view_name %};
 });
