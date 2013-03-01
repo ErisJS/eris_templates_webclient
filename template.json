@@ -6,7 +6,7 @@
 		"grunt-contrib-copy",
 		"grunt-contrib-jshint",
 		"grunt-contrib-less",
-		"grunt-contrib-mincss",
+		"grunt-contrib-cssmin",
 		"grunt-contrib-yuidoc",
 		"grunt-file-creator",
 		"jscoverage"
