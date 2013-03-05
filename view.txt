@@ -3,6 +3,7 @@
 <%= 'Main Tasks'.bold.underline.green %>
             <%= 'server'.green %>  <%= 'Launch a preview server which will watch for changes'.grey %>
               <%= 'test'.green %>  <%= 'Run test suites in a headless PhantomJS'.grey %>
+             <%= 'build'.green %>  <%= 'Build a development version'.grey %>
            <%= 'release'.green %>  <%= 'Build a release version which is ready for deployment'.grey %>
 
 <%= 'Scaffolding Tasks'.bold.underline.green %>
