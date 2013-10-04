@@ -1,11 +1,12 @@
 <%= 'Usage:'.grey %> <%= 'eris'.bold.green %> <%= '[command]'.green %> <%= '[task ...]'.grey %>
 
 <%= 'Main Tasks'.bold.underline.green %>
-            <%= 'server'.green %>  <%= 'Launch a preview server which will watch for changes'.grey %>
+           <%= 'preview'.green %>  <%= 'Launch a preview server which will watch for changes'.grey %>
               <%= 'test'.green %>  <%= 'Run test suites in a headless PhantomJS'.grey %>
+            <%= 'server'.green %>  <%= 'Launch a web server'.grey %>
              <%= 'build'.green %>  <%= 'Build a development version'.grey %>
            <%= 'release'.green %>  <%= 'Build a release version which is ready for deployment'.grey %>
 
-S<%= 'Info Tasks'.bold.underline.green %>
+<%= 'Info Tasks'.bold.underline.green %>
       <%= 'list-modules'.green %>  <%= 'Show module dependencies'.grey %>
              <%= 'cover'.green %>  <%= 'Generate code coverage information of unit tests using jscoverage'.grey %>

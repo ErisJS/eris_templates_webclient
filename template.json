@@ -10,9 +10,5 @@
 		"grunt-contrib-yuidoc",
 		"grunt-file-creator",
 		"jscoverage"
-	],
-	"repos": {
-		"client-assets": "git+ssh://git@github.com:Five9/client-assets.git#develop",
-		"client-boilerplate": "git+ssh://git@github.com:Five9/client-boilerplate.git#develop"
-	}
+	]
 }
