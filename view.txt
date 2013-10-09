@@ -9,4 +9,4 @@
 
 <%= 'Info Tasks'.bold.underline.green %>
       <%= 'list-modules'.green %>  <%= 'Show module dependencies'.grey %>
-             <%= 'cover'.green %>  <%= 'Generate code coverage information of unit tests using jscoverage'.grey %>
+           <%= 'reports'.green %>  <%= 'Generate all reports'.grey %>
