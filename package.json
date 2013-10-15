@@ -1,11 +1,15 @@
 {
   "name": "eris_templates_webclient",
-  "version": "0.2.1",
-  "description": "Standard Five9 web-client template for eris",
+  "version": "0.2.2",
+  "description": "Standard web-client template for Eris",
   "keywords": [
     "eris_template"
   ],
   "author": {
-    "name": "eris team"
-  }
+    "name": "Eris team"
+  },
+  "contributors": [
+    "Travis Hilterbrand <travis_hilterbrand@yahoo.com> (http://github.com/travis-hilterbrand)",
+    "Adam Mokan <adam.mokan@five9.com> (http://github.com/amokan)"
+  ]
 }
